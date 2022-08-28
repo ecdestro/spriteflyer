@@ -104,8 +104,8 @@ int main()
     sBlock.setRotation(redAngle * 180 / 3.141592);
     app.draw(sBlock);
 
-    std::cout << redX << " by " << redY << std::endl;
-    std::cout << redSpeed << " at " << redAngle << std::endl;
+    // std::cout << redX << " by " << redY << std::endl;
+    // std::cout << redSpeed << " at " << redAngle << std::endl;
     app.display();
     }
 
